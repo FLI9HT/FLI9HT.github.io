@@ -12,11 +12,11 @@ body {
  /* blinking cursor */
 #cursor {
   background: lime;
-  line-height: 58px;
-  margin-left: 10px;
+  line-height: 1px;
+  margin-left: 6px;
   -webkit-animation: blink 0.8s infinite;
-  width: 14px;
-  height: 25px;
+  width: 12px;
+  height: 26px;
 }
 
 @-webkit-keyframes blink {
