@@ -1,0 +1,26 @@
+body {
+  font-family: monospace;
+}
+
+#header {
+  display: flex;
+  align-items: baseline;
+  margin: 1px;
+}
+
+
+ /* blinking cursor */
+#cursor {
+  background: lime;
+  line-height: 58px;
+  margin-left: 10px;
+  -webkit-animation: blink 0.8s infinite;
+  width: 14px;
+  height: 25px;
+}
+
+@-webkit-keyframes blink {
+  0% {background: #222}
+  50% {background: lime}
+  100% {background: #222}
+}
