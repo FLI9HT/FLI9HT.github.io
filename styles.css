@@ -2,7 +2,7 @@ body {
   font-family: monospace;
 }
 
-#header {
+#p {
   display: flex;
   align-items: baseline;
   margin: 1px;
